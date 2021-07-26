@@ -31,13 +31,13 @@ and the other is faster_rcnn_nas which have a minimum average precision (mAP) of
 higher the mAP, the more accurate is the result.
 ## Results
 - <b>Faster rcnn nas model</b><br><br>
-Accuracy: (TP+TN)/total = (113+0)/116 = 0.97<br>
-Misclassification Rate: (FP+FN)/total = (3+1)/116 = 0.03<br><br>
+Accuracy: (True Positives + True Negatives)/total images = (113+0)/116 = 0.97<br>
+Misclassification Rate: (False Positives + False Negatives)/total images = (3+1)/116 = 0.03<br><br>
 <img src="faster_rcnn_result.jpg"><br>
 <img src="faster_rcnn_result2.jpg"><br><br>
 - <b>Ssd v1 coco</b><br><br>
-Accuracy: (TP+TN)/total = (87+0)/116 = 0.75<br>
-Misclassification Rate: (FP+FN)/total = (1+28)/116 = 0.25<br><br>
+Accuracy:  (True Positives + True Negatives)/total images = (87+0)/116 = 0.75<br>
+Misclassification Rate: (False Positives + False Negatives)/total image = (1+28)/116 = 0.25<br><br>
 <img src="ssd_result.jpg"><br>
 <img src="ssd_result2.jpg"><br>
 
